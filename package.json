@@ -1,0 +1,21 @@
+{
+  "name": "lab6.2.1",
+  "version": "1.0.0",
+  "description": "E-commerce dashboard with Promise-based API simulation and error handling",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "run": "node dist/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Preeti Sawant",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

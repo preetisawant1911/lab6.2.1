@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2022",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "bundler",         // ✅ Required for .ts extension support
+    "noEmit": true,                         // ✅ Required with allowImportingTsExtensions
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"]
+}
+
