@@ -1,6 +1,6 @@
 export async function retryPromise<T>(
   fn: () => Promise<T>,
-  retries: number = 3,
+  retries: nSumber = 3,
   delayMs: number = 500
 ): Promise<T> {
   try {
